@@ -35,6 +35,7 @@ echo $msg$target_branch
 # add all files
 git add -A
 git add -f gitbook
+git add -f *.html
 
 # commit
 git commit -a -m "Update docs"
