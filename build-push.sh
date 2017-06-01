@@ -1,13 +1,17 @@
 #!/bin/bash
 
-branch_name=${branch_name##refs/heads/}
+branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
 
-if [[ "$branch_name" == "master" ]]; then
+if [[ "$branch" == "master" ]]; then
   target_branch="gh-pages"
 else
-  target_branch=${branch_name}\-build
+  suffix="-build"
+  target_branch+=$suffix
 fi
+echo $branch
 
+msg="checking out upstream "
+echo $msg$target_branch
 echo 'building static site with gitbook'
 
 # install the plugins and build the static site
@@ -29,7 +33,7 @@ msg='commiting changes and pushing to '
 echo $msg$target_branch
 
 # add all files
-git add .
+git add -A
 
 # commit
 git commit -a -m "Update docs"
