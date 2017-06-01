@@ -27,7 +27,7 @@ git checkout $target_branch
 echo 'copying static files to project root'
 
 # copy the static site files into the current directory.
-scp -rp _book/* .
+mv _book/* .
 
 msg='commiting changes and pushing to '
 echo $msg$target_branch
