@@ -8,7 +8,6 @@ else
   suffix="-build"
   target_branch+=$suffix
 fi
-echo $branch
 
 msg="checking out upstream "
 echo $msg$target_branch
