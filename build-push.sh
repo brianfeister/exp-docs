@@ -11,6 +11,7 @@ fi
 
 msg="checking out upstream "
 echo $msg$target_branch
+
 echo 'building static site with gitbook'
 
 # install the plugins and build the static site

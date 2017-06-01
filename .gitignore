@@ -3,3 +3,5 @@ _book
 gitbook
 node_modules
 npm-debug.log
+*.html
+search_index.json
