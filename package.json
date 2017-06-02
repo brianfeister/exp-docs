@@ -12,7 +12,7 @@
     "publish:build": "./build-push.sh"
   },
   "author": "Father Time <brian@drm.st>",
-  "license": "N/A",
+  "license": "UNLICENSED",
   "dependencies": {
     "gitbook": "^3.2.2",
     "gitbook-cli": "^2.3.0"
