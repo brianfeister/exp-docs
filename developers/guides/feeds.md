@@ -6,7 +6,7 @@ last_updated: July 11, 2016
 tags: []
 ---
 
-<link rel="stylesheet" href="/_pages/developers/guides/feeds.css">
+<link rel="stylesheet" href="{{site.baseurl}}/_pages/developers/guides/feeds.css">
 
 # Overview
 
@@ -17,15 +17,15 @@ without being modified.
 The feeds can be acessed through a method on your EXP SDK, so consult the reference for your platform below. This guide will have more detail
 about how to use feeds and how they can be configured.
 
-- [JavaScript SDK - Reference](http://docs.goexp.io/developers/reference/javascript-sdk)
+- [JavaScript SDK - Reference]({{site.baseurl}}/developers/reference/javascript-sdk)
 
-- [Python SDK - Reference](http://docs.goexp.io/developers/reference/python-sdk)
+- [Python SDK - Reference]({{site.baseurl}}/developers/reference/python-sdk)
 
-- [Player app SDK - Reference](http://docs.goexp.io/developers/reference/player-app-sdk)
+- [Player app SDK - Reference]({{site.baseurl}}/developers/reference/player-app-sdk)
 
-- [IOS SDK - Reference](http://docs.goexp.io/developers/reference/ios-sdk)
+- [IOS SDK - Reference]({{site.baseurl}}/developers/reference/ios-sdk)
 
-- [Android SDK - Reference](http://docs.goexp.io/developers/reference/android-sdk)
+- [Android SDK - Reference]({{site.baseurl}}/developers/reference/android-sdk)
 
 # Integrations
 Most of the feed types in EXP require permissions to access the third party data source.

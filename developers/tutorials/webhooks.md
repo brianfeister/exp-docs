@@ -41,7 +41,7 @@ Before we can hook up **Youtube** to **EXP** using **IFTTT** we need to define a
 8. When you have saved the **Web Hook**, find it in the list and open the **details**.
 9. Copy the Web Hook **URL** that we need in our **IFTTT** setup.
 
-![Create a Web Hook](/images/webhook/webhook.gif "Create a Web Hook")
+![Create a Web Hook](/common_images/webhook/webhook.gif "Create a Web Hook")
 
 ## Setup IFTTT
 
@@ -60,7 +60,7 @@ Before we can hook up **Youtube** to **EXP** using **IFTTT** we need to define a
 13. For the body enter the following Json string -> **{"content":"{{Url}}"}**. This describes when **content** needs to be played.
 14. Create **Web Request** and Finish **Applet**.
 
-![Setup IFTTT](/images/webhook/webhook2.gif "Setup IFTTT")
+![Setup IFTTT](/common_images/webhook/webhook2.gif "Setup IFTTT")
 
 ## Test Setup
 

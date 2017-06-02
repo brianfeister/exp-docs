@@ -5,6 +5,15 @@ keywords: developer
 tags: [updates]
 ---
 
+## May 2017 Release
+
+- Android SDK 5.0.0 [click here](https://github.com/ScalaInc/exp-android-sdk/releases/tag/v5.0.0).
+
+  - First Eagle release for Android SDK for single tenant
+
+- IOS SDK 5.0.0 [click here](https://github.com/ScalaInc/exp-ios-sdk/releases/tag/v5.0.0).
+
+  - First Eagle release for IOS SDK for single tenant
 
 
 ## December 2016 Release
@@ -46,7 +55,7 @@ tags: [updates]
 
 - Added support for datepicker and timepicker type in app manifest
 
-- Added restart, pair, and unpair methods to player app SDK. [View documentation](http://docs.goexp.io/developers/reference/player-app-sdk/#restarting-and-pairing)
+- Added restart, pair, and unpair methods to player app SDK. [View documentation](/developers/reference/player-app-sdk.md#restarting-and-pairing)
 
 - The player app Slideshow is now called Playlist.
 
@@ -88,5 +97,5 @@ tags: [updates]
 
   - We now support Device, Thing and Location selection fields in app settings.
 
-- Added LinkedIn [integration](/developers/guides/feeds/#integrations)
+- Added LinkedIn [integration](/developers/guides/feeds.md#integrations)
 

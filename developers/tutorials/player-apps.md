@@ -151,4 +151,4 @@ As soon as the device is added we should see the player showing something like:
 # Conclusion
 That's it! You have now learned the basics of how to create an EXP player app.
 
-To learn more about what's possible with an EXP player app, read the documentation for the [EXP Javascript SDK](/developers/reference/javascript_sdk_reference).
+To learn more about what's possible with an EXP player app, read the documentation for the [EXP Javascript SDK]({{site.baseurl}}/developers/reference/javascript_sdk_reference).

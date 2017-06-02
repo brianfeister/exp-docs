@@ -22,19 +22,19 @@ Consumer apps are shared across an EXP organization, and managed by an account t
 in as an account that can manage the organization, click Current Organization from the organization drop-down menu, then click the Consumer Apps
 tab.
 
-![Current Organization]({{site.baseurl}}/images/tutorials/consumer-app-credentials/current-organization.png "Current Organization")
+![Current Organization](/images/tutorials/consumer-app-credentials/current-organization.png "Current Organization")
 
-![Consumer Apps Tab]({{site.baseurl}}/images/tutorials/consumer-app-credentials/consumer-apps-tab.png "Consumer Apps Tab")
+![Consumer Apps Tab](/images/tutorials/consumer-app-credentials/consumer-apps-tab.png "Consumer Apps Tab")
 
 Click the plus button in the top right to create a new consumer app. Fill in an appropriate name and save.
 
-![New Consumer App Form]({{site.baseurl}}/images/tutorials/consumer-app-credentials/new-consumer-app-form.png "New Consumer App Form")
+![New Consumer App Form](/images/tutorials/consumer-app-credentials/new-consumer-app-form.png "New Consumer App Form")
 
 # Using Consumer App Credentials
 
 The consumer app you just created has credentials already. To see them open the edit form for the consumer app by clicking the gear icon next to its name.
 
-![Edit Consumer App Form]({{site.baseurl}}/images/tutorials/consumer-app-credentials/edit-consumer-app-form.png "Edit Consumer App Form")
+![Edit Consumer App Form](/images/tutorials/consumer-app-credentials/edit-consumer-app-form.png "Edit Consumer App Form")
 
 From this dialog you can copy and paste the uuid and API Key into your app's code, or download the two values as a JSON file and include it in your app.
 

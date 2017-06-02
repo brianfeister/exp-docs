@@ -38,4 +38,4 @@ That's it! You should now have content playing on your player.
 You can find more information about the player using the hidden player menu by clicking near the bottom left corner of the screen.
 ![Hidden Player Menu](/images/developers/quickstart/player-menu-app.png "Hidden Player Menu")
 
-You're ready to start writing your own custom apps, take a look at the documentation for [Player App Development](/developers/tutorials/player-apps).
+You're ready to start writing your own custom apps, take a look at the documentation for [Player App Development]({{site.baseurl}}/developers/tutorials/player-apps).

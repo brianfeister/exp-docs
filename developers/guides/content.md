@@ -14,7 +14,7 @@ importantly there are specific types of content that make up an experiences. Her
 
 - Content can be any type of file.
 - Content is arranged in a hierarchy of folders.
-- [Apps](http://docs.goexp.io/developers/guides/player-apps) are a specific type of content.
+- [Apps](/developers/guides/player-apps) are a specific type of content.
 - URLs can be used as content (think bookmarks).
 - Files are processed after upload to provide additional data for App development.
 
@@ -36,7 +36,7 @@ An example root folder for the organization with the display name `Scala R&D` wi
 
 ```
 
-To traverse the tree the SDKs provide helper methods on each [Content](http://docs.goexp.io/developers/reference/javascript-sdk/#content) object that allows navigating through child content.
+To traverse the tree the SDKs provide helper methods on each [Content](/developers/reference/javascript-sdk.md#content) object that allows navigating through child content.
 
 The following example logs the name of each content item in the root folder of the current organization:
 
@@ -55,7 +55,7 @@ exp.getContent('root').then(root => {
 
 To continue walking the tree you can call the `child.getChildren()` function to get the content of a folder.
 
-*See the SDK reference for more details on the [Content](http://docs.goexp.io/developers/reference/javascript-sdk/#content) resource.
+*See the SDK reference for more details on the [Content](/developers/reference/javascript-sdk.md#content) resource.
 
 # Working with Different Types of Content
 

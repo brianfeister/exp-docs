@@ -35,8 +35,8 @@ To that end, EXP provides:
 ## More Resources
 
   * [Learn about Authentication](/developers/reference/authentication.md)
-  * [Learn about Python SDK](/developers/reference/python-sdk-latest.md)
-  * [Learn about Javascript SDK](/developers/reference/javascript-sdk-latest.md)
+  * [Learn about Python SDK](/developers/reference/python-sdk.md)
+  * [Learn about Javascript SDK](/developers/reference/javascript-sdk.md)
   * [Learn about Player App SDK](/developers/reference/player-app-sdk.md)
   * [Learn about IOS SDK](/developers/reference/ios-sdk.md)
   * [Learn about Android SDK](/developers/reference/android-sdk.md)
