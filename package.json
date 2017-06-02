@@ -7,7 +7,7 @@
     "node": ">=6.0.0"
   },
   "scripts": {
-    "start": "gitbook install && gitbook serve",
+    "start": "gitbook install && gitbook --lrport 35730 serve",
     "build": "gitbook build",
     "publish:build": "./build-push.sh"
   },

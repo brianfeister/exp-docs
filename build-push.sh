@@ -1,12 +1,16 @@
 #!/bin/bash
 
-branch_name=${branch_name##refs/heads/}
+branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
 
-if [[ "$branch_name" == "master" ]]; then
+if [[ "$branch" == "master" ]]; then
   target_branch="gh-pages"
 else
-  target_branch=${branch_name}\-build
+  suffix="-build"
+  target_branch+=$suffix
 fi
+
+msg="checking out upstream "
+echo $msg$target_branch
 
 echo 'building static site with gitbook'
 
@@ -23,13 +27,15 @@ git checkout $target_branch
 echo 'copying static files to project root'
 
 # copy the static site files into the current directory.
-cp -R _book/* .
+rsync -a _book/ .
 
 msg='commiting changes and pushing to '
 echo $msg$target_branch
 
 # add all files
-git add .
+git add -A
+git add -f gitbook
+git add -f *.html
 
 # commit
 git commit -a -m "Update docs"
