@@ -6,11 +6,8 @@ EXP is a cloud based platform for creating immersive digitial experiences that t
 To that end, EXP provides:
 
 * A single place to manage screens, devices, sensors, beacons, etc.
-
 * A realtime communication network between managed components
-
 * An HTML player that allows for remote management of content on screens
-
 * Managed data feed connections to 3rd party services for adding that data to digital signage experiences
 
 ## Quickstart
